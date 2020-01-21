@@ -1,4 +1,4 @@
-# Start wasm on irita
+# Start WASM on IRITA
 
 ### Compile smart contract
 
@@ -28,7 +28,7 @@ irita testnet --v 1 --chain-id test
 irita start --home mytestnet/node0/irita
 ```
 
-## deploy the contract
+## Deploy the contract
 
 ```shell
 # add key node1
@@ -44,7 +44,7 @@ iritacli tx wasm store $(iritacli keys show node0 -a --home mytestnet/node0/irit
 iritacli query wasm list-code
 ```
 
-### Instantiating the contract
+### Instantiate the contract
 
 ```shell
 # instantiate contract and verify
