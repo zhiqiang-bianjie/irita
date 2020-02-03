@@ -39,7 +39,7 @@ iritacli config trust-node true
 Finally, let us set the `chain-id` of the blockchain we want to interact with:
 
 ```bash
-iritacli config chain-id irita-2
+iritacli config chain-id <chain-id>
 ```
 
 ### Keys
